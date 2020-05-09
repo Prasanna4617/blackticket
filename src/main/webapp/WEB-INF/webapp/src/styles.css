@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+.offset{
+    margin: 0 auto !important;
+}
+
+.textbox-height{
+    height: 46px !important;
+}
+
+.form-container{
+    color: #212121 !important;
+}
+
+.inputbox-style{
+    font-size: 14px !important;
+    padding: 0 16px !important;
+}

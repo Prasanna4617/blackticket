@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="offset col-sm-4 form-container" style="margin-top:6% !important">
+      <h2> Sign Up </h2>
+      <div class="login-form">
+        <form [formGroup]="signUpForm" >
+          <div class="form-group login-form-fields">
+            <input type="email" formControlName = "email" class="form-control textbox-height inputbox-style" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email ID">
+          </div>
+          <div class="form-group login-form-fields">
+            <input type="text" formControlName = "phone" class="form-control textbox-height inputbox-style" id="mobile" placeholder="Mobile Number">
+          </div>
+          <div class="form-group login-form-fields">
+            <input type="text" formControlName = "fname" class="form-control textbox-height inputbox-style" id="firstName" placeholder="First Name">
+          </div>
+          <div class="form-group login-form-fields">
+              <input type="text" formControlName = "lname" class="form-control textbox-height inputbox-style" id="lastName" placeholder="Last Name">
+          </div>
+          <div class="form-group login-form-fields">
+              <input type="password" formControlName = "password" class="form-control textbox-height inputbox-style" id="password" placeholder="Password">
+          </div>
+          <div class="form-group login-form-fields">
+              <input type="password" class="form-control textbox-height inputbox-style" id="confirmPassword" placeholder="Confirm Password">
+          </div>
+          <div>
+            <button type="button" (click)="onSubmit(signUpForm.value)" class="btn btn-primary btn-block textbox-height inputbox-style">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+</div>
+  

@@ -1,0 +1,12 @@
+h2{
+    font-size: 20px;
+}
+
+.login-form{
+    padding: 25px 0;
+}
+
+.login-form-fields{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
